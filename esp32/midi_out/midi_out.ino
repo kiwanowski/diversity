@@ -1,6 +1,6 @@
 #include <MIDI.h>
 
-MIDI_CREATE_INSTANCE(HardwareSerial, Serial1, MIDI);
+MIDI_CREATE_INSTANCE(HardwareSerial, Serial, MIDI);
 const int channel = 1;
 
 void setup() {

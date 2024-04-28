@@ -1,6 +1,6 @@
 #include <MIDI.h>
 
-MIDI_CREATE_INSTANCE(HardwareSerial, Serial7, MIDI);
+MIDI_CREATE_INSTANCE(HardwareSerial, Serial, MIDI);
 
 void setup() {
   MIDI.begin(MIDI_CHANNEL_OMNI);
