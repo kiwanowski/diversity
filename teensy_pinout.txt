@@ -1,0 +1,36 @@
+0
+1 - midi out
+2 - LCD DC
+3 - LCD RESET
+4 - SD detect
+5 - MCP23008 INT
+6 - LCD BACKLIGHT
+7 - PCM5102a DIN
+8 - PCM1808 DOUT
+9 - INT touch
+10 - LCD CS
+11 - LCD MOSI
+12 - LCD MISO
+
+13 - LCD SCK
+14 - battery charger CHRG
+15 - battery charger POWER ON
+16 - MCP23008 SCL
+17 - MCP23008 SDA
+18 - audio i2s
+19 - audio i2s
+20 - PCM5102a LCK
+21 - PCM5102a BCK
+22 - Battery level input
+23 - PCM5102a SCK
+
+24 - power button
+25
+26 - headphones detect
+27
+28 - midi in
+29
+30 - speakers control
+31
+32
+33
