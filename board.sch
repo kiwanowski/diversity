@@ -12928,183 +12928,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
-<library name="Molex Inc - 105027-0001">
-<description>Upverter Parts Library
-
-Created by Upverter.com</description>
-<packages>
-<package name="MOLEX_INC_105027-0001_0">
-<description>CONN MICRO SD CARD PUSH-PULL R/A</description>
-<wire x1="-5.695" y1="-3.395" x2="-5.695" y2="2.805" width="0.15" layer="51"/>
-<wire x1="-5.695" y1="2.805" x2="5.695" y2="2.805" width="0.15" layer="51"/>
-<wire x1="5.695" y1="2.805" x2="5.695" y2="-3.395" width="0.15" layer="51"/>
-<wire x1="5.695" y1="-3.395" x2="-5.695" y2="-3.395" width="0.15" layer="51"/>
-<wire x1="-4.325" y1="2.805" x2="4.325" y2="2.805" width="0.15" layer="21"/>
-<wire x1="5.695" y1="-3.395" x2="5.695" y2="-3.295" width="0.15" layer="21"/>
-<wire x1="5.695" y1="-1.345" x2="5.695" y2="1.155" width="0.15" layer="21"/>
-<wire x1="-5.695" y1="-3.395" x2="-4.475" y2="-3.395" width="0.15" layer="21"/>
-<wire x1="4.475" y1="-3.395" x2="5.695" y2="-3.395" width="0.15" layer="21"/>
-<wire x1="-5.695" y1="-3.395" x2="-5.695" y2="-3.295" width="0.15" layer="21"/>
-<wire x1="-5.695" y1="-1.345" x2="-5.695" y2="1.155" width="0.15" layer="21"/>
-<wire x1="-5.85" y1="-4.53" x2="-5.85" y2="2.905" width="0.1" layer="39"/>
-<wire x1="-5.85" y1="2.905" x2="5.85" y2="2.905" width="0.1" layer="39"/>
-<wire x1="5.85" y1="2.905" x2="5.85" y2="-4.53" width="0.1" layer="39"/>
-<wire x1="5.85" y1="-4.53" x2="-5.85" y2="-4.53" width="0.1" layer="39"/>
-<text x="-5.695" y="3.105" size="1" layer="25">&gt;NAME</text>
-<circle x="3.855" y="-5.08" radius="0.25" width="0" layer="21"/>
-<smd name="P1" x="3.85" y="-3.93" dx="0.5" dy="1" layer="1"/>
-<smd name="P2" x="2.75" y="-3.93" dx="0.5" dy="1" layer="1"/>
-<smd name="P3" x="1.65" y="-3.93" dx="0.5" dy="1" layer="1"/>
-<smd name="P5" x="-0.55" y="-3.93" dx="0.5" dy="1" layer="1"/>
-<smd name="P6" x="-1.65" y="-3.93" dx="0.5" dy="1" layer="1"/>
-<smd name="P7" x="-2.75" y="-3.93" dx="0.5" dy="1" layer="1"/>
-<smd name="P8" x="-3.85" y="-3.93" dx="0.5" dy="1" layer="1"/>
-<smd name="G1" x="0.2" y="-3.93" dx="0.5" dy="1" layer="1"/>
-<smd name="P4" x="0.9" y="-3.93" dx="0.5" dy="1" layer="1"/>
-<smd name="1" x="-5.225" y="2.13" dx="1.05" dy="1.2" layer="1"/>
-<smd name="2" x="5.225" y="2.13" dx="1.05" dy="1.2" layer="1"/>
-<smd name="3" x="-5.225" y="-2.32" dx="1.05" dy="1.2" layer="1"/>
-<smd name="4" x="5.225" y="-2.32" dx="1.05" dy="1.2" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="MOLEX_INC_105027-0001_0_0">
-<description>CONN MICRO SD CARD PUSH-PULL R/A</description>
-<wire x1="2.54" y1="-30.48" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-5.08" x2="15.24" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-5.08" x2="15.24" y2="-30.48" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-30.48" x2="2.54" y2="-30.48" width="0.254" layer="94"/>
-<wire x1="9.652" y1="-10.16" x2="15.24" y2="-10.16" width="0.508" layer="94"/>
-<wire x1="9.652" y1="-15.24" x2="15.24" y2="-15.24" width="0.508" layer="94"/>
-<wire x1="9.652" y1="-20.32" x2="15.24" y2="-20.32" width="0.508" layer="94"/>
-<wire x1="9.652" y1="-25.4" x2="15.24" y2="-25.4" width="0.508" layer="94"/>
-<wire x1="15.24" y1="-10.16" x2="15.24" y2="-10.16" width="0.15" layer="94"/>
-<wire x1="15.24" y1="-15.24" x2="15.24" y2="-15.24" width="0.15" layer="94"/>
-<wire x1="15.24" y1="-20.32" x2="15.24" y2="-20.32" width="0.15" layer="94"/>
-<wire x1="15.24" y1="-25.4" x2="15.24" y2="-25.4" width="0.15" layer="94"/>
-<text x="2.54" y="-2.54" size="2.54" layer="95" align="top-left">&gt;NAME</text>
-<text x="2.54" y="-35.56" size="2.54" layer="95" align="top-left">105027-0001</text>
-<pin name="MNT_1" x="20.32" y="-10.16" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="MNT_2" x="20.32" y="-15.24" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="MNT_3" x="20.32" y="-20.32" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="MNT_4" x="20.32" y="-25.4" visible="pad" length="middle" direction="pas" rot="R180"/>
-<circle x="8.89" y="-10.16" radius="0.762" width="0.254" layer="94"/>
-<circle x="8.89" y="-15.24" radius="0.762" width="0.254" layer="94"/>
-<circle x="8.89" y="-20.32" radius="0.762" width="0.254" layer="94"/>
-<circle x="8.89" y="-25.4" radius="0.762" width="0.254" layer="94"/>
-</symbol>
-<symbol name="MOLEX_INC_105027-0001_0_1">
-<description>CONN MICRO SD CARD PUSH-PULL R/A</description>
-<wire x1="0" y1="-55.88" x2="0" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="-5.08" x2="15.24" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-5.08" x2="15.24" y2="-55.88" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-55.88" x2="0" y2="-55.88" width="0.254" layer="94"/>
-<wire x1="8.382" y1="-10.16" x2="15.24" y2="-10.16" width="0.508" layer="94"/>
-<wire x1="8.382" y1="-15.24" x2="15.24" y2="-15.24" width="0.508" layer="94"/>
-<wire x1="8.382" y1="-20.32" x2="15.24" y2="-20.32" width="0.508" layer="94"/>
-<wire x1="8.382" y1="-25.4" x2="15.24" y2="-25.4" width="0.508" layer="94"/>
-<wire x1="8.382" y1="-30.48" x2="15.24" y2="-30.48" width="0.508" layer="94"/>
-<wire x1="8.382" y1="-35.56" x2="15.24" y2="-35.56" width="0.508" layer="94"/>
-<wire x1="8.382" y1="-40.64" x2="15.24" y2="-40.64" width="0.508" layer="94"/>
-<wire x1="8.382" y1="-45.72" x2="15.24" y2="-45.72" width="0.508" layer="94"/>
-<wire x1="8.382" y1="-50.8" x2="15.24" y2="-50.8" width="0.508" layer="94"/>
-<wire x1="15.24" y1="-10.16" x2="15.24" y2="-10.16" width="0.15" layer="94"/>
-<wire x1="15.24" y1="-15.24" x2="15.24" y2="-15.24" width="0.15" layer="94"/>
-<wire x1="15.24" y1="-20.32" x2="15.24" y2="-20.32" width="0.15" layer="94"/>
-<wire x1="15.24" y1="-25.4" x2="15.24" y2="-25.4" width="0.15" layer="94"/>
-<wire x1="15.24" y1="-30.48" x2="15.24" y2="-30.48" width="0.15" layer="94"/>
-<wire x1="15.24" y1="-35.56" x2="15.24" y2="-35.56" width="0.15" layer="94"/>
-<wire x1="15.24" y1="-40.64" x2="15.24" y2="-40.64" width="0.15" layer="94"/>
-<wire x1="15.24" y1="-45.72" x2="15.24" y2="-45.72" width="0.15" layer="94"/>
-<wire x1="15.24" y1="-50.8" x2="15.24" y2="-50.8" width="0.15" layer="94"/>
-<text x="0" y="-2.54" size="2.54" layer="95" align="top-left">&gt;NAME</text>
-<text x="0" y="-60.96" size="2.54" layer="95" align="top-left">105027-0001</text>
-<pin name="SWITCH" x="20.32" y="-10.16" visible="pad" length="middle" direction="in" rot="R180"/>
-<pin name="DAT2" x="20.32" y="-15.24" visible="pad" length="middle" rot="R180"/>
-<pin name="CD/DAT3" x="20.32" y="-20.32" visible="pad" length="middle" rot="R180"/>
-<pin name="CMD" x="20.32" y="-25.4" visible="pad" length="middle" rot="R180"/>
-<pin name="VDD" x="20.32" y="-30.48" visible="pad" length="middle" direction="pwr" rot="R180"/>
-<pin name="CLK" x="20.32" y="-35.56" visible="pad" length="middle" direction="in" rot="R180"/>
-<pin name="VSS" x="20.32" y="-40.64" visible="pad" length="middle" direction="pwr" rot="R180"/>
-<pin name="DAT0" x="20.32" y="-45.72" visible="pad" length="middle" rot="R180"/>
-<pin name="DAT1" x="20.32" y="-50.8" visible="pad" length="middle" rot="R180"/>
-<circle x="7.62" y="-10.16" radius="0.762" width="0.254" layer="94"/>
-<circle x="7.62" y="-15.24" radius="0.762" width="0.254" layer="94"/>
-<circle x="7.62" y="-20.32" radius="0.762" width="0.254" layer="94"/>
-<circle x="7.62" y="-25.4" radius="0.762" width="0.254" layer="94"/>
-<circle x="7.62" y="-30.48" radius="0.762" width="0.254" layer="94"/>
-<circle x="7.62" y="-35.56" radius="0.762" width="0.254" layer="94"/>
-<circle x="7.62" y="-40.64" radius="0.762" width="0.254" layer="94"/>
-<circle x="7.62" y="-45.72" radius="0.762" width="0.254" layer="94"/>
-<circle x="7.62" y="-50.8" radius="0.762" width="0.254" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MOLEX_INC_105027-0001" prefix="J">
-<description>CONN MICRO SD CARD PUSH-PULL R/A</description>
-<gates>
-<gate name="B" symbol="MOLEX_INC_105027-0001_0_0" x="0" y="0"/>
-<gate name="A" symbol="MOLEX_INC_105027-0001_0_1" x="32.7" y="0"/>
-</gates>
-<devices>
-<device name="MOLEX_INC_105027-0001_0_0" package="MOLEX_INC_105027-0001_0">
-<connects>
-<connect gate="A" pin="CD/DAT3" pad="P2"/>
-<connect gate="A" pin="CLK" pad="P5"/>
-<connect gate="A" pin="CMD" pad="P3"/>
-<connect gate="A" pin="DAT0" pad="P7"/>
-<connect gate="A" pin="DAT1" pad="P8"/>
-<connect gate="A" pin="DAT2" pad="P1"/>
-<connect gate="A" pin="SWITCH" pad="G1"/>
-<connect gate="A" pin="VDD" pad="P4"/>
-<connect gate="A" pin="VSS" pad="P6"/>
-<connect gate="B" pin="MNT_1" pad="1"/>
-<connect gate="B" pin="MNT_2" pad="2"/>
-<connect gate="B" pin="MNT_3" pad="3"/>
-<connect gate="B" pin="MNT_4" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AUTOMOTIVE" value="No"/>
-<attribute name="CENTROID_NOT_SPECIFIED" value="No"/>
-<attribute name="CONN_ORIENTATION" value="Horizontal"/>
-<attribute name="CONTACT_MATERIAL" value="Gold,Nickel"/>
-<attribute name="CURRENT_RATING" value="0.5A"/>
-<attribute name="DATASHEET" value="http://www.molex.com/webdocs/datasheets/pdf/en-us/1050270001_MEMORY_CARD_SOCKET.pdf"/>
-<attribute name="DEVICE_CLASS_L1" value="Connectors"/>
-<attribute name="DEVICE_CLASS_L2" value="Memory Connectors"/>
-<attribute name="DEVICE_CLASS_L3" value="unset"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="CONN MICRO SD CARD PUSH-PULL R/A"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="WM6825CT-ND"/>
-<attribute name="FOOTPRINT_URL" value="https://www.molex.com/pdm_docs/sd/1050270001_sd.pdf"/>
-<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern"/>
-<attribute name="HEIGHT" value="1.85mm"/>
-<attribute name="IS_FEMALE" value="yes"/>
-<attribute name="LEAD_FREE" value="Yes"/>
-<attribute name="MEMORY_TYPE" value="FLASH"/>
-<attribute name="MF" value="Molex Inc"/>
-<attribute name="MFG_PACKAGE_IDENT" value="105027-0001"/>
-<attribute name="MFG_PACKAGE_IDENT_DATE" value="0"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="0"/>
-<attribute name="MOUSER_DESCRIPTION" value="Conn Micro SD Card HDR 8 POS 1.1mm Solder RA SMD Embossed T/R 0.5A/Contact"/>
-<attribute name="MOUSER_PART_NUMBER" value="538-105027-0001"/>
-<attribute name="MPN" value="105027-0001"/>
-<attribute name="NUMBER_OF_CONTACTS" value="9"/>
-<attribute name="PACKAGE" value="CONN_SMT_SD"/>
-<attribute name="PREFIX" value="J"/>
-<attribute name="ROHS" value="Yes"/>
-<attribute name="SHIELDING" value="true"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+85°C"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-40°C"/>
-<attribute name="VERIFICATION_VERSION" value="0.0.0.1"/>
-<attribute name="VOLTAGE_RATING" value="5V"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="ic-package">
 <description>&lt;b&gt;IC Packages an Sockets&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -14088,6 +13911,95 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="sd-mmc">
+<packages>
+<package name="TF-PULL">
+<description>TF / Micro SD socket is PUSH-PUSH type, the card can be pushed into and auto locked and pushed out by simply press the card.
+&lt;p&gt;
+Surface Mounting type.</description>
+<wire x1="7.4" y1="-7.25" x2="7.4" y2="6.75" width="0.127" layer="21"/>
+<wire x1="7.4" y1="6.75" x2="-1.4" y2="6.75" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="6.75" x2="-4.4" y2="7.55" width="0.127" layer="21"/>
+<wire x1="-4.4" y1="7.55" x2="-7.4" y2="7.55" width="0.127" layer="21"/>
+<wire x1="-7.4" y1="7.55" x2="-7.4" y2="-5.8" width="0.127" layer="21"/>
+<wire x1="-7.4" y1="-5.8" x2="-6.1" y2="-5.8" width="0.127" layer="21"/>
+<wire x1="-6.1" y1="-5.8" x2="-6.1" y2="-7.25" width="0.127" layer="21"/>
+<wire x1="-6.1" y1="-7.25" x2="7.4" y2="-7.25" width="0.127" layer="21"/>
+<smd name="S1" x="-7.9" y="2.85" dx="1.4" dy="2" layer="1"/>
+<smd name="S2" x="7.9" y="2.85" dx="1.4" dy="2" layer="1"/>
+<smd name="S3" x="7.96" y="-6.75" dx="1.28" dy="1.4" layer="1"/>
+<smd name="S4" x="-7.025" y="-6.75" dx="1.95" dy="1.4" layer="1"/>
+<smd name="1" x="-2.2" y="-7.62" dx="0.7" dy="1.4" layer="1"/>
+<smd name="2" x="-1.1" y="-7.62" dx="0.7" dy="1.4" layer="1"/>
+<smd name="3" x="0" y="-7.62" dx="0.7" dy="1.4" layer="1"/>
+<smd name="4" x="1.1" y="-7.62" dx="0.7" dy="1.4" layer="1"/>
+<smd name="5" x="2.2" y="-7.62" dx="0.7" dy="1.4" layer="1"/>
+<smd name="6" x="3.3" y="-7.62" dx="0.7" dy="1.4" layer="1"/>
+<smd name="7" x="4.4" y="-7.62" dx="0.7" dy="1.4" layer="1"/>
+<smd name="8" x="5.5" y="-7.62" dx="0.7" dy="1.4" layer="1"/>
+<smd name="9" x="6.6" y="-7.62" dx="0.7" dy="1.4" layer="1"/>
+<text x="7.7" y="1.1" size="1.016" layer="25" ratio="18" rot="R270">&gt;NAME</text>
+<hole x="-3.1" y="3.25" drill="1.25"/>
+<hole x="4.9" y="3.25" drill="1.25"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TF9">
+<wire x1="-7.62" y1="12.7" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
+<text x="-5.08" y="13.208" size="1.6764" layer="95">&gt;NAME</text>
+<text x="10.668" y="10.16" size="1.6764" layer="96" rot="R270">&gt;VALUE</text>
+<text x="9.398" y="-12.192" size="1.016" layer="97" rot="R90">TransFlash holder</text>
+<pin name="DAT2" x="-12.7" y="10.16" length="middle"/>
+<pin name="CD/DAT3(!CS!)" x="-12.7" y="7.62" length="middle"/>
+<pin name="CMD(DI)" x="-12.7" y="5.08" length="middle"/>
+<pin name="VDD" x="-12.7" y="2.54" length="middle" direction="pwr"/>
+<pin name="CLK(SCLK)" x="-12.7" y="0" length="middle" direction="in"/>
+<pin name="VSS" x="-12.7" y="-2.54" length="middle" direction="pwr"/>
+<pin name="DAT0(DO)" x="-12.7" y="-5.08" length="middle"/>
+<pin name="DAT1" x="-12.7" y="-7.62" length="middle"/>
+<pin name="!CARD" x="-12.7" y="-10.16" length="middle" direction="pas"/>
+<pin name="S1" x="-2.54" y="-15.24" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="S2" x="0" y="-15.24" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="S3" x="2.54" y="-15.24" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="S4" x="5.08" y="-15.24" visible="off" length="short" direction="pas" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TF-HOLDER" prefix="SD">
+<description>TF / Micro SD socket is PUSH-PUSH type, the card can be pushed into and auto locked and pushed out by simply press the card.
+&lt;p&gt;
+Surface Mounting type.</description>
+<gates>
+<gate name="G$1" symbol="TF9" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TF-PULL">
+<connects>
+<connect gate="G$1" pin="!CARD" pad="9"/>
+<connect gate="G$1" pin="CD/DAT3(!CS!)" pad="2"/>
+<connect gate="G$1" pin="CLK(SCLK)" pad="5"/>
+<connect gate="G$1" pin="CMD(DI)" pad="3"/>
+<connect gate="G$1" pin="DAT0(DO)" pad="7"/>
+<connect gate="G$1" pin="DAT1" pad="8"/>
+<connect gate="G$1" pin="DAT2" pad="1"/>
+<connect gate="G$1" pin="S1" pad="S1"/>
+<connect gate="G$1" pin="S2" pad="S2"/>
+<connect gate="G$1" pin="S3" pad="S3"/>
+<connect gate="G$1" pin="S4" pad="S4"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
+<connect gate="G$1" pin="VSS" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -14122,7 +14034,6 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <part name="J6" library="lbr_SparkFun-Eagle-Libraries_SparkFun-Connectors" deviceset="CONN_02" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="J11" library="lbr_SparkFun-Eagle-Libraries_SparkFun-Connectors" deviceset="AUDIO_JACK_TRRS" device="SMD_RA"/>
-<part name="J9" library="Molex Inc - 105027-0001" deviceset="MOLEX_INC_105027-0001" device="MOLEX_INC_105027-0001_0_0"/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="J3" library="lbr_SparkFun-Eagle-Libraries_SparkFun-Connectors" deviceset="AUDIO_JACK_TRRS" device="SMD_RA"/>
 <part name="J4" library="lbr_SparkFun-Eagle-Libraries_SparkFun-Connectors" deviceset="AUDIO_JACK_TRRS" device="SMD_RA"/>
@@ -14159,19 +14070,22 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="C4" library="rcl" deviceset="C-US" device="C0805" value="100n"/>
-<part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="J18" library="lbr_SparkFun-Eagle-Libraries_SparkFun-Connectors" deviceset="CONN_06" device="SILK_FEMALE_PTH"/>
 <part name="R1" library="rcl" deviceset="R-US_" device="R0805" value="2k2"/>
 <part name="R2" library="rcl" deviceset="R-US_" device="R0805" value="2k2"/>
 <part name="J8" library="con-omron-kopia" deviceset="XF2*-20?" device="15-1" technology="E"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="R4" library="rcl" deviceset="R-US_" device="R0805" value="100"/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
-<part name="SUPPLY4" library="supply2" deviceset="VCC" device=""/>
 <part name="J7" library="lbr_SparkFun-Eagle-Libraries_SparkFun-Connectors" deviceset="CONN_01" device=""/>
 <part name="J19" library="lbr_SparkFun-Eagle-Libraries_SparkFun-Connectors" deviceset="CONN_01" device=""/>
 <part name="C1" library="rcl" deviceset="C-US" device="C0805" value="100n"/>
+<part name="SUPPLY2" library="supply2" deviceset="VCC" device=""/>
+<part name="GND22" library="supply1" deviceset="GND" device=""/>
+<part name="C5" library="rcl" deviceset="C-US" device="C0805" value="10u"/>
+<part name="R3" library="rcl" deviceset="R-US_" device="R0805" value="100"/>
+<part name="GND23" library="supply1" deviceset="GND" device=""/>
+<part name="SD1" library="sd-mmc" deviceset="TF-HOLDER" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14202,8 +14116,7 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <instance part="J6" gate="G$1" x="259.08" y="198.12" rot="MR180"/>
 <instance part="GND21" gate="1" x="269.24" y="190.5"/>
 <instance part="J11" gate="G$1" x="281.94" y="111.76" rot="R180"/>
-<instance part="J9" gate="A" x="127" y="81.28"/>
-<instance part="GND27" gate="1" x="165.1" y="35.56"/>
+<instance part="GND27" gate="1" x="160.02" y="50.8"/>
 <instance part="J3" gate="G$1" x="281.94" y="137.16" rot="R180"/>
 <instance part="J4" gate="G$1" x="281.94" y="81.28" rot="MR0"/>
 <instance part="J10" gate="G$1" x="264.16" y="101.6" rot="R90"/>
@@ -14239,7 +14152,6 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <instance part="GND6" gate="1" x="205.74" y="93.98"/>
 <instance part="GND7" gate="1" x="185.42" y="104.14"/>
 <instance part="C4" gate="G$1" x="220.98" y="180.34"/>
-<instance part="GND11" gate="1" x="132.08" y="175.26"/>
 <instance part="J18" gate="G$1" x="182.88" y="50.8"/>
 <instance part="R1" gate="G$1" x="170.18" y="129.54" rot="R90"/>
 <instance part="R2" gate="G$1" x="177.8" y="129.54" rot="R90"/>
@@ -14252,7 +14164,6 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <instance part="J8" gate="-8" x="88.9" y="50.8" rot="R180"/>
 <instance part="J8" gate="-9" x="88.9" y="53.34" rot="R180"/>
 <instance part="J8" gate="-10" x="88.9" y="55.88" rot="R180"/>
-<instance part="J8" gate="-11" x="88.9" y="58.42" rot="R180"/>
 <instance part="J8" gate="-12" x="88.9" y="60.96" rot="R180"/>
 <instance part="J8" gate="-13" x="88.9" y="63.5" rot="R180"/>
 <instance part="J8" gate="-14" x="88.9" y="66.04" rot="R180"/>
@@ -14262,13 +14173,18 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <instance part="J8" gate="-18" x="88.9" y="76.2" rot="R180"/>
 <instance part="J8" gate="-19" x="88.9" y="78.74" rot="R180"/>
 <instance part="GND4" gate="1" x="99.06" y="63.5" rot="MR0"/>
-<instance part="R4" gate="G$1" x="101.6" y="58.42" rot="MR0"/>
 <instance part="GND17" gate="1" x="104.14" y="48.26" rot="MR0"/>
 <instance part="GND19" gate="1" x="99.06" y="30.48" rot="MR0"/>
-<instance part="SUPPLY4" gate="G$1" x="109.22" y="63.5"/>
-<instance part="J7" gate="G$1" x="160.02" y="162.56"/>
+<instance part="J7" gate="G$1" x="160.02" y="152.4"/>
 <instance part="J19" gate="G$1" x="160.02" y="175.26"/>
 <instance part="C1" gate="G$1" x="228.6" y="180.34"/>
+<instance part="SUPPLY2" gate="G$1" x="236.22" y="162.56"/>
+<instance part="GND22" gate="1" x="236.22" y="144.78"/>
+<instance part="C5" gate="G$1" x="236.22" y="154.94"/>
+<instance part="J8" gate="-11" x="88.9" y="58.42" rot="R180"/>
+<instance part="R3" gate="G$1" x="101.6" y="58.42" rot="MR0"/>
+<instance part="GND23" gate="1" x="172.72" y="160.02"/>
+<instance part="SD1" gate="G$1" x="129.54" y="58.42" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -14381,10 +14297,10 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <wire x1="269.24" y1="195.58" x2="266.7" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J9" gate="A" pin="VSS"/>
 <pinref part="GND27" gate="1" pin="GND"/>
-<wire x1="147.32" y1="40.64" x2="165.1" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="40.64" x2="165.1" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="55.88" x2="160.02" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="55.88" x2="160.02" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="SD1" gate="G$1" pin="VSS"/>
 </segment>
 <segment>
 <pinref part="J11" gate="G$1" pin="RING2"/>
@@ -14496,12 +14412,6 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J12" gate="G$1" pin="6"/>
-<wire x1="144.78" y1="180.34" x2="132.08" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="180.34" x2="132.08" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="GND11" gate="1" pin="GND"/>
-</segment>
-<segment>
 <wire x1="91.44" y1="68.58" x2="93.98" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="66.04" x2="93.98" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="68.58" x2="93.98" y2="66.04" width="0.1524" layer="91"/>
@@ -14532,6 +14442,17 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <wire x1="104.14" y1="53.34" x2="104.14" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="J8" gate="-9" pin="MS"/>
 </segment>
+<segment>
+<pinref part="GND22" gate="1" pin="GND"/>
+<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="236.22" y1="147.32" x2="236.22" y2="149.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J15" gate="G$1" pin="12"/>
+<wire x1="182.88" y1="165.1" x2="172.72" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="165.1" x2="172.72" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="GND23" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -14553,10 +14474,9 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <wire x1="248.92" y1="177.8" x2="248.92" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="106.68" y1="58.42" x2="109.22" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="58.42" x2="109.22" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="SUPPLY4" gate="G$1" pin="VCC"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
+<wire x1="236.22" y1="157.48" x2="236.22" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CS" class="0">
@@ -14621,9 +14541,9 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 </net>
 <net name="3V3" class="0">
 <segment>
-<pinref part="J9" gate="A" pin="VDD"/>
-<wire x1="147.32" y1="50.8" x2="149.86" y2="50.8" width="0.1524" layer="91"/>
-<label x="149.86" y="50.8" size="1.778" layer="95"/>
+<wire x1="142.24" y1="60.96" x2="144.78" y2="60.96" width="0.1524" layer="91"/>
+<label x="144.78" y="60.96" size="1.778" layer="95"/>
+<pinref part="SD1" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
 <pinref part="J16" gate="G$1" pin="6"/>
@@ -14834,9 +14754,9 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 </net>
 <net name="SD_CMD" class="0">
 <segment>
-<pinref part="J9" gate="A" pin="CMD"/>
-<wire x1="147.32" y1="55.88" x2="149.86" y2="55.88" width="0.1524" layer="91"/>
-<label x="149.86" y="55.88" size="1.778" layer="95"/>
+<wire x1="142.24" y1="63.5" x2="144.78" y2="63.5" width="0.1524" layer="91"/>
+<label x="144.78" y="63.5" size="1.778" layer="95"/>
+<pinref part="SD1" gate="G$1" pin="CMD(DI)"/>
 </segment>
 <segment>
 <pinref part="J18" gate="G$1" pin="4"/>
@@ -14846,9 +14766,9 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 </net>
 <net name="SD_DAT2" class="0">
 <segment>
-<pinref part="J9" gate="A" pin="DAT2"/>
-<wire x1="147.32" y1="66.04" x2="149.86" y2="66.04" width="0.1524" layer="91"/>
-<label x="149.86" y="66.04" size="1.778" layer="95"/>
+<wire x1="142.24" y1="68.58" x2="144.78" y2="68.58" width="0.1524" layer="91"/>
+<label x="144.78" y="68.58" size="1.778" layer="95"/>
+<pinref part="SD1" gate="G$1" pin="DAT2"/>
 </segment>
 <segment>
 <pinref part="J18" gate="G$1" pin="6"/>
@@ -14858,9 +14778,9 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 </net>
 <net name="SD_DAT1" class="0">
 <segment>
-<pinref part="J9" gate="A" pin="DAT1"/>
-<wire x1="147.32" y1="30.48" x2="149.86" y2="30.48" width="0.1524" layer="91"/>
-<label x="149.86" y="30.48" size="1.778" layer="95"/>
+<wire x1="142.24" y1="50.8" x2="144.78" y2="50.8" width="0.1524" layer="91"/>
+<label x="144.78" y="50.8" size="1.778" layer="95"/>
+<pinref part="SD1" gate="G$1" pin="DAT1"/>
 </segment>
 <segment>
 <pinref part="J18" gate="G$1" pin="1"/>
@@ -14870,9 +14790,9 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 </net>
 <net name="SD_DAT0" class="0">
 <segment>
-<pinref part="J9" gate="A" pin="DAT0"/>
-<wire x1="147.32" y1="35.56" x2="149.86" y2="35.56" width="0.1524" layer="91"/>
-<label x="149.86" y="35.56" size="1.778" layer="95"/>
+<wire x1="142.24" y1="53.34" x2="144.78" y2="53.34" width="0.1524" layer="91"/>
+<label x="144.78" y="53.34" size="1.778" layer="95"/>
+<pinref part="SD1" gate="G$1" pin="DAT0(DO)"/>
 </segment>
 <segment>
 <pinref part="J18" gate="G$1" pin="2"/>
@@ -14882,9 +14802,9 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 </net>
 <net name="SD_DAT3" class="0">
 <segment>
-<pinref part="J9" gate="A" pin="CD/DAT3"/>
-<wire x1="147.32" y1="60.96" x2="149.86" y2="60.96" width="0.1524" layer="91"/>
-<label x="149.86" y="60.96" size="1.778" layer="95"/>
+<wire x1="142.24" y1="66.04" x2="144.78" y2="66.04" width="0.1524" layer="91"/>
+<label x="144.78" y="66.04" size="1.778" layer="95"/>
+<pinref part="SD1" gate="G$1" pin="CD/DAT3(!CS!)"/>
 </segment>
 <segment>
 <pinref part="J18" gate="G$1" pin="5"/>
@@ -14894,9 +14814,9 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 </net>
 <net name="SD_CLK" class="0">
 <segment>
-<label x="162.56" y="45.72" size="1.778" layer="95"/>
-<pinref part="J9" gate="A" pin="CLK"/>
-<wire x1="147.32" y1="45.72" x2="162.56" y2="45.72" width="0.1524" layer="91"/>
+<label x="144.78" y="58.42" size="1.778" layer="95"/>
+<wire x1="142.24" y1="58.42" x2="144.78" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="SD1" gate="G$1" pin="CLK(SCLK)"/>
 </segment>
 <segment>
 <pinref part="J18" gate="G$1" pin="3"/>
@@ -14957,8 +14877,8 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 </segment>
 <segment>
 <pinref part="J7" gate="G$1" pin="1"/>
-<wire x1="167.64" y1="162.56" x2="170.18" y2="162.56" width="0.1524" layer="91"/>
-<label x="167.64" y="162.56" size="1.778" layer="95"/>
+<wire x1="167.64" y1="152.4" x2="170.18" y2="152.4" width="0.1524" layer="91"/>
+<label x="167.64" y="152.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -15171,11 +15091,16 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <label x="220.98" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="LED" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="91.44" y1="58.42" x2="96.52" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="J8" gate="-11" pin="MS"/>
+<pinref part="J12" gate="G$1" pin="8"/>
+<wire x1="144.78" y1="175.26" x2="142.24" y2="175.26" width="0.1524" layer="91"/>
+<label x="139.7" y="175.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="106.68" y1="58.42" x2="109.22" y2="58.42" width="0.1524" layer="91"/>
+<label x="109.22" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -15202,6 +15127,25 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <pinref part="J8" gate="-3" pin="MS"/>
 <wire x1="91.44" y1="38.1" x2="93.98" y2="38.1" width="0.1524" layer="91"/>
 <label x="93.98" y="38.1" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="J8" gate="-11" pin="MS"/>
+<wire x1="91.44" y1="58.42" x2="96.52" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="CARD" class="0">
+<segment>
+<pinref part="J12" gate="G$1" pin="6"/>
+<wire x1="144.78" y1="180.34" x2="142.24" y2="180.34" width="0.1524" layer="91"/>
+<label x="137.16" y="180.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SD1" gate="G$1" pin="!CARD"/>
+<wire x1="142.24" y1="48.26" x2="144.78" y2="48.26" width="0.1524" layer="91"/>
+<label x="144.78" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
