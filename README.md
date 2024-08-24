@@ -2,8 +2,9 @@
 an affordable DIY and open source alternative to the M8 tracker
 
 ## Limitations
+The device works with firmware versions up to v1.3.8. Later FW versions have to be patched to work.
 
-Micromod edition is a proof of concept and will not work as there is no firmware available (yet). 
+Files in the micromod and esp32 are a proof of concept and will not work with M8 firmware. 
 
 ## Support
 
