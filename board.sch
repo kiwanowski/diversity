@@ -14086,6 +14086,9 @@ Surface Mounting type.</description>
 <part name="R3" library="rcl" deviceset="R-US_" device="R0805" value="100"/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="SD1" library="sd-mmc" deviceset="TF-HOLDER" device=""/>
+<part name="R4" library="rcl" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="R10" library="rcl" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="GND11" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14140,13 +14143,13 @@ Surface Mounting type.</description>
 <instance part="GND36" gate="1" x="238.76" y="43.18" rot="MR0"/>
 <instance part="GND37" gate="1" x="233.68" y="30.48" rot="MR0"/>
 <instance part="C3" gate="G$1" x="213.36" y="180.34"/>
-<instance part="J12" gate="G$1" x="154.94" y="175.26" rot="R180"/>
-<instance part="J15" gate="G$1" x="193.04" y="175.26" rot="R180"/>
-<instance part="J17" gate="G$1" x="160.02" y="193.04"/>
+<instance part="J12" gate="G$1" x="127" y="177.8" rot="R180"/>
+<instance part="J15" gate="G$1" x="165.1" y="177.8" rot="R180"/>
+<instance part="J17" gate="G$1" x="132.08" y="195.58"/>
 <instance part="SUPPLY1" gate="G$1" x="248.92" y="185.42"/>
-<instance part="GND1" gate="1" x="129.54" y="187.96"/>
-<instance part="GND2" gate="1" x="172.72" y="185.42"/>
-<instance part="SUPPLY3" gate="G$1" x="180.34" y="198.12"/>
+<instance part="GND1" gate="1" x="101.6" y="190.5"/>
+<instance part="GND2" gate="1" x="144.78" y="187.96"/>
+<instance part="SUPPLY3" gate="G$1" x="152.4" y="200.66"/>
 <instance part="S5" gate="1" x="264.16" y="180.34" rot="MR270"/>
 <instance part="IC3" gate="G$1" x="205.74" y="121.92"/>
 <instance part="GND6" gate="1" x="205.74" y="93.98"/>
@@ -14175,16 +14178,19 @@ Surface Mounting type.</description>
 <instance part="GND4" gate="1" x="99.06" y="63.5" rot="MR0"/>
 <instance part="GND17" gate="1" x="104.14" y="48.26" rot="MR0"/>
 <instance part="GND19" gate="1" x="99.06" y="30.48" rot="MR0"/>
-<instance part="J7" gate="G$1" x="160.02" y="152.4"/>
-<instance part="J19" gate="G$1" x="160.02" y="175.26"/>
+<instance part="J7" gate="G$1" x="132.08" y="154.94"/>
+<instance part="J19" gate="G$1" x="132.08" y="177.8"/>
 <instance part="C1" gate="G$1" x="228.6" y="180.34"/>
-<instance part="SUPPLY2" gate="G$1" x="236.22" y="162.56"/>
-<instance part="GND22" gate="1" x="236.22" y="144.78"/>
-<instance part="C5" gate="G$1" x="236.22" y="154.94"/>
+<instance part="SUPPLY2" gate="G$1" x="238.76" y="187.96"/>
+<instance part="GND22" gate="1" x="238.76" y="170.18"/>
+<instance part="C5" gate="G$1" x="238.76" y="180.34"/>
 <instance part="J8" gate="-11" x="88.9" y="58.42" rot="R180"/>
 <instance part="R3" gate="G$1" x="101.6" y="58.42" rot="MR0"/>
-<instance part="GND23" gate="1" x="172.72" y="160.02"/>
+<instance part="GND23" gate="1" x="144.78" y="162.56"/>
 <instance part="SD1" gate="G$1" x="129.54" y="58.42" rot="MR0"/>
+<instance part="R4" gate="G$1" x="182.88" y="190.5" rot="R90"/>
+<instance part="R10" gate="G$1" x="182.88" y="175.26" rot="R90"/>
+<instance part="GND11" gate="1" x="182.88" y="165.1"/>
 </instances>
 <busses>
 </busses>
@@ -14381,14 +14387,14 @@ Surface Mounting type.</description>
 </segment>
 <segment>
 <pinref part="J12" gate="G$1" pin="1"/>
-<wire x1="144.78" y1="193.04" x2="129.54" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="193.04" x2="129.54" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="195.58" x2="101.6" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="195.58" x2="101.6" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="J15" gate="G$1" pin="2"/>
-<wire x1="182.88" y1="190.5" x2="172.72" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="190.5" x2="172.72" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="193.04" x2="144.78" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="193.04" x2="144.78" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -14445,13 +14451,18 @@ Surface Mounting type.</description>
 <segment>
 <pinref part="GND22" gate="1" pin="GND"/>
 <pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="236.22" y1="147.32" x2="236.22" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="172.72" x2="238.76" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J15" gate="G$1" pin="12"/>
-<wire x1="182.88" y1="165.1" x2="172.72" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="165.1" x2="172.72" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="167.64" x2="144.78" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="167.64" x2="144.78" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="GND23" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="182.88" y1="170.18" x2="182.88" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="GND11" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -14463,8 +14474,8 @@ Surface Mounting type.</description>
 </segment>
 <segment>
 <pinref part="J15" gate="G$1" pin="1"/>
-<wire x1="182.88" y1="193.04" x2="180.34" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="193.04" x2="180.34" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="195.58" x2="152.4" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="195.58" x2="152.4" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="SUPPLY3" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
@@ -14476,14 +14487,14 @@ Surface Mounting type.</description>
 <segment>
 <pinref part="C5" gate="G$1" pin="1"/>
 <pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
-<wire x1="236.22" y1="157.48" x2="236.22" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="182.88" x2="238.76" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CS" class="0">
 <segment>
 <pinref part="J12" gate="G$1" pin="12"/>
-<wire x1="144.78" y1="165.1" x2="142.24" y2="165.1" width="0.1524" layer="91"/>
-<label x="139.7" y="165.1" size="1.778" layer="95"/>
+<wire x1="116.84" y1="167.64" x2="114.3" y2="167.64" width="0.1524" layer="91"/>
+<label x="111.76" y="167.64" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="91.44" y1="45.72" x2="93.98" y2="45.72" width="0.1524" layer="91"/>
@@ -14494,8 +14505,8 @@ Surface Mounting type.</description>
 <net name="DC" class="0">
 <segment>
 <pinref part="J12" gate="G$1" pin="4"/>
-<wire x1="144.78" y1="185.42" x2="142.24" y2="185.42" width="0.1524" layer="91"/>
-<label x="139.7" y="185.42" size="1.778" layer="95"/>
+<wire x1="116.84" y1="187.96" x2="114.3" y2="187.96" width="0.1524" layer="91"/>
+<label x="111.76" y="187.96" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="91.44" y1="43.18" x2="93.98" y2="43.18" width="0.1524" layer="91"/>
@@ -14506,8 +14517,8 @@ Surface Mounting type.</description>
 <net name="MOSI" class="0">
 <segment>
 <pinref part="J12" gate="G$1" pin="13"/>
-<wire x1="144.78" y1="162.56" x2="142.24" y2="162.56" width="0.1524" layer="91"/>
-<label x="137.16" y="162.56" size="1.778" layer="95"/>
+<wire x1="116.84" y1="165.1" x2="114.3" y2="165.1" width="0.1524" layer="91"/>
+<label x="109.22" y="165.1" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="91.44" y1="48.26" x2="93.98" y2="48.26" width="0.1524" layer="91"/>
@@ -14518,8 +14529,8 @@ Surface Mounting type.</description>
 <net name="SCK" class="0">
 <segment>
 <pinref part="J15" gate="G$1" pin="14"/>
-<wire x1="182.88" y1="160.02" x2="180.34" y2="160.02" width="0.1524" layer="91"/>
-<label x="177.8" y="160.02" size="1.778" layer="95"/>
+<wire x1="154.94" y1="162.56" x2="152.4" y2="162.56" width="0.1524" layer="91"/>
+<label x="149.86" y="162.56" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="91.44" y1="40.64" x2="93.98" y2="40.64" width="0.1524" layer="91"/>
@@ -14530,8 +14541,8 @@ Surface Mounting type.</description>
 <net name="MISO" class="0">
 <segment>
 <pinref part="J12" gate="G$1" pin="14"/>
-<wire x1="144.78" y1="160.02" x2="142.24" y2="160.02" width="0.1524" layer="91"/>
-<label x="137.16" y="160.02" size="1.778" layer="95"/>
+<wire x1="116.84" y1="162.56" x2="114.3" y2="162.56" width="0.1524" layer="91"/>
+<label x="109.22" y="162.56" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="91.44" y1="50.8" x2="93.98" y2="50.8" width="0.1524" layer="91"/>
@@ -14585,13 +14596,8 @@ Surface Mounting type.</description>
 </segment>
 <segment>
 <pinref part="J15" gate="G$1" pin="3"/>
-<wire x1="182.88" y1="187.96" x2="180.34" y2="187.96" width="0.1524" layer="91"/>
-<label x="177.8" y="187.96" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J15" gate="G$1" pin="5"/>
-<wire x1="182.88" y1="182.88" x2="180.34" y2="182.88" width="0.1524" layer="91"/>
-<label x="177.8" y="182.88" size="1.778" layer="95"/>
+<wire x1="154.94" y1="190.5" x2="152.4" y2="190.5" width="0.1524" layer="91"/>
+<label x="149.86" y="190.5" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="VCC"/>
@@ -14615,8 +14621,8 @@ Surface Mounting type.</description>
 </segment>
 <segment>
 <pinref part="J12" gate="G$1" pin="11"/>
-<wire x1="144.78" y1="167.64" x2="142.24" y2="167.64" width="0.1524" layer="91"/>
-<label x="139.7" y="167.64" size="1.778" layer="95"/>
+<wire x1="116.84" y1="170.18" x2="114.3" y2="170.18" width="0.1524" layer="91"/>
+<label x="111.76" y="170.18" size="1.778" layer="95"/>
 </segment>
 <segment>
 <label x="96.52" y="55.88" size="1.778" layer="95" rot="MR0"/>
@@ -14631,8 +14637,13 @@ Surface Mounting type.</description>
 </segment>
 <segment>
 <pinref part="J19" gate="G$1" pin="1"/>
-<wire x1="167.64" y1="175.26" x2="170.18" y2="175.26" width="0.1524" layer="91"/>
-<label x="170.18" y="175.26" size="1.778" layer="95"/>
+<wire x1="139.7" y1="177.8" x2="142.24" y2="177.8" width="0.1524" layer="91"/>
+<label x="142.24" y="177.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="182.88" y1="198.12" x2="182.88" y2="195.58" width="0.1524" layer="91"/>
+<label x="182.88" y="198.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D_U" class="0">
@@ -14682,8 +14693,8 @@ Surface Mounting type.</description>
 </segment>
 <segment>
 <pinref part="J15" gate="G$1" pin="7"/>
-<wire x1="182.88" y1="177.8" x2="180.34" y2="177.8" width="0.1524" layer="91"/>
-<label x="177.8" y="177.8" size="1.778" layer="95"/>
+<wire x1="154.94" y1="180.34" x2="152.4" y2="180.34" width="0.1524" layer="91"/>
+<label x="149.86" y="180.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIN" class="0">
@@ -14694,8 +14705,8 @@ Surface Mounting type.</description>
 </segment>
 <segment>
 <pinref part="J12" gate="G$1" pin="9"/>
-<wire x1="144.78" y1="172.72" x2="142.24" y2="172.72" width="0.1524" layer="91"/>
-<label x="139.7" y="172.72" size="1.778" layer="95"/>
+<wire x1="116.84" y1="175.26" x2="114.3" y2="175.26" width="0.1524" layer="91"/>
+<label x="111.76" y="175.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BCK" class="0">
@@ -14711,8 +14722,8 @@ Surface Mounting type.</description>
 </segment>
 <segment>
 <pinref part="J15" gate="G$1" pin="6"/>
-<wire x1="182.88" y1="180.34" x2="180.34" y2="180.34" width="0.1524" layer="91"/>
-<label x="177.8" y="180.34" size="1.778" layer="95"/>
+<wire x1="154.94" y1="182.88" x2="152.4" y2="182.88" width="0.1524" layer="91"/>
+<label x="149.86" y="182.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -14739,8 +14750,8 @@ Surface Mounting type.</description>
 </segment>
 <segment>
 <pinref part="J17" gate="G$1" pin="1"/>
-<wire x1="167.64" y1="193.04" x2="170.18" y2="193.04" width="0.1524" layer="91"/>
-<label x="167.64" y="193.04" size="1.778" layer="95"/>
+<wire x1="139.7" y1="195.58" x2="142.24" y2="195.58" width="0.1524" layer="91"/>
+<label x="139.7" y="195.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -14832,8 +14843,8 @@ Surface Mounting type.</description>
 </segment>
 <segment>
 <pinref part="J12" gate="G$1" pin="10"/>
-<wire x1="144.78" y1="170.18" x2="142.24" y2="170.18" width="0.1524" layer="91"/>
-<label x="137.16" y="170.18" size="1.778" layer="95"/>
+<wire x1="116.84" y1="172.72" x2="114.3" y2="172.72" width="0.1524" layer="91"/>
+<label x="109.22" y="172.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -14849,8 +14860,8 @@ Surface Mounting type.</description>
 </segment>
 <segment>
 <pinref part="J15" gate="G$1" pin="4"/>
-<wire x1="182.88" y1="185.42" x2="180.34" y2="185.42" width="0.1524" layer="91"/>
-<label x="177.8" y="185.42" size="1.778" layer="95"/>
+<wire x1="154.94" y1="187.96" x2="152.4" y2="187.96" width="0.1524" layer="91"/>
+<label x="149.86" y="187.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MIDI_OUT" class="0">
@@ -14861,8 +14872,8 @@ Surface Mounting type.</description>
 </segment>
 <segment>
 <pinref part="J12" gate="G$1" pin="3"/>
-<wire x1="144.78" y1="187.96" x2="142.24" y2="187.96" width="0.1524" layer="91"/>
-<label x="134.62" y="187.96" size="1.778" layer="95"/>
+<wire x1="116.84" y1="190.5" x2="114.3" y2="190.5" width="0.1524" layer="91"/>
+<label x="106.68" y="190.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MIDI_IN" class="0">
@@ -14877,8 +14888,8 @@ Surface Mounting type.</description>
 </segment>
 <segment>
 <pinref part="J7" gate="G$1" pin="1"/>
-<wire x1="167.64" y1="152.4" x2="170.18" y2="152.4" width="0.1524" layer="91"/>
-<label x="167.64" y="152.4" size="1.778" layer="95"/>
+<wire x1="139.7" y1="154.94" x2="142.24" y2="154.94" width="0.1524" layer="91"/>
+<label x="139.7" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -14956,8 +14967,8 @@ Surface Mounting type.</description>
 <net name="IN_INT" class="0">
 <segment>
 <pinref part="J12" gate="G$1" pin="7"/>
-<wire x1="144.78" y1="177.8" x2="142.24" y2="177.8" width="0.1524" layer="91"/>
-<label x="137.16" y="177.8" size="1.778" layer="95"/>
+<wire x1="116.84" y1="180.34" x2="114.3" y2="180.34" width="0.1524" layer="91"/>
+<label x="109.22" y="180.34" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="INT"/>
@@ -14968,8 +14979,8 @@ Surface Mounting type.</description>
 <net name="IN_SCL" class="0">
 <segment>
 <pinref part="J15" gate="G$1" pin="11"/>
-<wire x1="182.88" y1="167.64" x2="180.34" y2="167.64" width="0.1524" layer="91"/>
-<label x="172.72" y="167.64" size="1.778" layer="95"/>
+<wire x1="154.94" y1="170.18" x2="152.4" y2="170.18" width="0.1524" layer="91"/>
+<label x="144.78" y="170.18" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="SCL"/>
@@ -14984,8 +14995,8 @@ Surface Mounting type.</description>
 <net name="IN_SDA" class="0">
 <segment>
 <pinref part="J15" gate="G$1" pin="10"/>
-<wire x1="182.88" y1="170.18" x2="180.34" y2="170.18" width="0.1524" layer="91"/>
-<label x="172.72" y="170.18" size="1.778" layer="95"/>
+<wire x1="154.94" y1="172.72" x2="152.4" y2="172.72" width="0.1524" layer="91"/>
+<label x="144.78" y="172.72" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="SDA"/>
@@ -15094,8 +15105,8 @@ Surface Mounting type.</description>
 <net name="LED" class="0">
 <segment>
 <pinref part="J12" gate="G$1" pin="8"/>
-<wire x1="144.78" y1="175.26" x2="142.24" y2="175.26" width="0.1524" layer="91"/>
-<label x="139.7" y="175.26" size="1.778" layer="95"/>
+<wire x1="116.84" y1="177.8" x2="114.3" y2="177.8" width="0.1524" layer="91"/>
+<label x="111.76" y="177.8" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
@@ -15120,8 +15131,8 @@ Surface Mounting type.</description>
 <net name="RESET" class="0">
 <segment>
 <pinref part="J12" gate="G$1" pin="5"/>
-<wire x1="144.78" y1="182.88" x2="142.24" y2="182.88" width="0.1524" layer="91"/>
-<label x="137.16" y="182.88" size="1.778" layer="95"/>
+<wire x1="116.84" y1="185.42" x2="114.3" y2="185.42" width="0.1524" layer="91"/>
+<label x="109.22" y="185.42" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J8" gate="-3" pin="MS"/>
@@ -15139,13 +15150,29 @@ Surface Mounting type.</description>
 <net name="CARD" class="0">
 <segment>
 <pinref part="J12" gate="G$1" pin="6"/>
-<wire x1="144.78" y1="180.34" x2="142.24" y2="180.34" width="0.1524" layer="91"/>
-<label x="137.16" y="180.34" size="1.778" layer="95"/>
+<wire x1="116.84" y1="182.88" x2="114.3" y2="182.88" width="0.1524" layer="91"/>
+<label x="109.22" y="182.88" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="SD1" gate="G$1" pin="!CARD"/>
 <wire x1="142.24" y1="48.26" x2="144.78" y2="48.26" width="0.1524" layer="91"/>
 <label x="144.78" y="48.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DIV" class="0">
+<segment>
+<pinref part="J15" gate="G$1" pin="5"/>
+<wire x1="154.94" y1="185.42" x2="152.4" y2="185.42" width="0.1524" layer="91"/>
+<label x="149.86" y="185.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="182.88" y1="185.42" x2="182.88" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="182.88" x2="182.88" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="182.88" x2="185.42" y2="182.88" width="0.1524" layer="91"/>
+<junction x="182.88" y="182.88"/>
+<label x="185.42" y="182.88" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
