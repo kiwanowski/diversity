@@ -1,17 +1,17 @@
 M8 board:
 
 Teensy 4.0
-S1, S2, S3, S4, S6, S7, S9, S10 - tact switch 6x6x8mm THT https://pl.aliexpress.com/item/1005001314044456.html
-S1, S2, S3, S4, S6, S7, S9, S10 - tact switch caps https://pl.aliexpress.com/item/32888964798.html
-J8 - 3.2 inch ILI9341 LCD without touch https://pl.aliexpress.com/item/32861524235.html
-J1 - MH CD42 battery charger module https://pl.aliexpress.com/item/32966430033.html
-PCM5102A DAC module https://pl.aliexpress.com/item/4000397296348.html
-PCM1808 ADC module https://pl.aliexpress.com/item/32777376004.html
-J9 - micro SD socket https://pl.aliexpress.com/item/32908749625.html
+S1, S2, S3, S4, S6, S7, S9, S10 - tact switch 6x6x8mm THT https://www.aliexpress.com/item/32872707582.html
+S1, S2, S3, S4, S6, S7, S9, S10 - tact switch caps https://www.aliexpress.com/item/32888964798.html
+J8 - 3.2 inch ILI9341 LCD without touch https://www.aliexpress.com/item/32861524235.html
+J1 - MH CD42 battery charger module https://www.aliexpress.com/item/1005005185685973.html
+PCM5102A DAC module https://www.aliexpress.com/item/4000397296348.html
+PCM1808 ADC module https://www.aliexpress.com/item/32777376004.html
+J9 - micro SD socket https://www.aliexpress.com/item/1005006288088367.html
 IC3 - MCP23008-E/SO
-S5 - slide switch https://pl.aliexpress.com/item/32762926481.html
+S5 - slide switch https://www.aliexpress.com/item/32762926481.html
 IC1 - 6N138
-J3, J4, J11, J13 - headphone jack https://pl.aliexpress.com/item/32439357849.html
+J3, J4, J11, J13 - headphone jack https://www.aliexpress.com/item/32439357849.html
 J6 - 504050 1500mah battery
 
 R1, R2 2k2 ohm 0805
@@ -28,10 +28,10 @@ D3 1N4148 SMD
 
 Case:
 
-4x Spacer M2.5 4mm https://pl.aliexpress.com/item/32888919298.html
-4x Spacer M2.5 8mm https://pl.aliexpress.com/item/32888919298.html
-4x Screw M2.5 5mm https://pl.aliexpress.com/item/32961311508.html
-4x Screw M2.5 12mm https://pl.aliexpress.com/item/32961311508.html
+4x Spacer M2.5 4mm https://www.aliexpress.com/item/1005007160597848.html
+4x Spacer M2.5 8mm https://www.aliexpress.com/item/1005007160597848.html
+4x Screw M2.5 5mm https://www.aliexpress.com/item/32961311508.html
+4x Screw M2.5 12mm https://www.aliexpress.com/item/32961311508.html
 
 
 SD adapter board:
