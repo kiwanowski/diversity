@@ -14083,12 +14083,8 @@ Surface Mounting type.</description>
 <part name="SUPPLY2" library="supply2" deviceset="VCC" device=""/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="C5" library="rcl" deviceset="C-US" device="C0805" value="10u"/>
-<part name="R3" library="rcl" deviceset="R-US_" device="R0805" value="100"/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="SD1" library="sd-mmc" deviceset="TF-HOLDER" device=""/>
-<part name="R4" library="rcl" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="R10" library="rcl" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="GND11" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14185,12 +14181,8 @@ Surface Mounting type.</description>
 <instance part="GND22" gate="1" x="238.76" y="170.18"/>
 <instance part="C5" gate="G$1" x="238.76" y="180.34"/>
 <instance part="J8" gate="-11" x="88.9" y="58.42" rot="R180"/>
-<instance part="R3" gate="G$1" x="101.6" y="58.42" rot="MR0"/>
 <instance part="GND23" gate="1" x="144.78" y="162.56"/>
 <instance part="SD1" gate="G$1" x="129.54" y="58.42" rot="MR0"/>
-<instance part="R4" gate="G$1" x="182.88" y="190.5" rot="R90"/>
-<instance part="R10" gate="G$1" x="182.88" y="175.26" rot="R90"/>
-<instance part="GND11" gate="1" x="182.88" y="165.1"/>
 </instances>
 <busses>
 </busses>
@@ -14459,11 +14451,6 @@ Surface Mounting type.</description>
 <wire x1="144.78" y1="167.64" x2="144.78" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="GND23" gate="1" pin="GND"/>
 </segment>
-<segment>
-<pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="182.88" y1="170.18" x2="182.88" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="GND11" gate="1" pin="GND"/>
-</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -14641,9 +14628,9 @@ Surface Mounting type.</description>
 <label x="142.24" y="177.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="182.88" y1="198.12" x2="182.88" y2="195.58" width="0.1524" layer="91"/>
-<label x="182.88" y="198.12" size="1.778" layer="95"/>
+<pinref part="J15" gate="G$1" pin="5"/>
+<wire x1="154.94" y1="185.42" x2="152.4" y2="185.42" width="0.1524" layer="91"/>
+<label x="149.86" y="185.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D_U" class="0">
@@ -15109,9 +15096,9 @@ Surface Mounting type.</description>
 <label x="111.76" y="177.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="106.68" y1="58.42" x2="109.22" y2="58.42" width="0.1524" layer="91"/>
-<label x="109.22" y="58.42" size="1.778" layer="95"/>
+<label x="93.98" y="58.42" size="1.778" layer="95"/>
+<pinref part="J8" gate="-11" pin="MS"/>
+<wire x1="91.44" y1="58.42" x2="93.98" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -15140,13 +15127,6 @@ Surface Mounting type.</description>
 <label x="93.98" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="J8" gate="-11" pin="MS"/>
-<wire x1="91.44" y1="58.42" x2="96.52" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-</segment>
-</net>
 <net name="CARD" class="0">
 <segment>
 <pinref part="J12" gate="G$1" pin="6"/>
@@ -15157,22 +15137,6 @@ Surface Mounting type.</description>
 <pinref part="SD1" gate="G$1" pin="!CARD"/>
 <wire x1="142.24" y1="48.26" x2="144.78" y2="48.26" width="0.1524" layer="91"/>
 <label x="144.78" y="48.26" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="DIV" class="0">
-<segment>
-<pinref part="J15" gate="G$1" pin="5"/>
-<wire x1="154.94" y1="185.42" x2="152.4" y2="185.42" width="0.1524" layer="91"/>
-<label x="149.86" y="185.42" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="182.88" y1="185.42" x2="182.88" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="182.88" x2="182.88" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="182.88" x2="185.42" y2="182.88" width="0.1524" layer="91"/>
-<junction x="182.88" y="182.88"/>
-<label x="185.42" y="182.88" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

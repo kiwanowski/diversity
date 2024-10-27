@@ -15,7 +15,6 @@ J3, J4, J11, J13 - headphone jack https://www.aliexpress.com/item/32439357849.ht
 J6 - 504050 1500mah battery
 
 R1, R2 2k2 ohm 0805
-R4 100 ohm 0805
 R5 220 ohm 0805
 R6 33 ohm 0805
 R7 10 ohm 0805
