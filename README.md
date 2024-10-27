@@ -2,7 +2,7 @@
 an affordable DIY and open source alternative to the M8 tracker
 
 ## Limitations
-The device works with firmware version v2.7.5. The firmware needs to be patched with the included ips patch.
+The official firmware needs to be patched to work with this device.
 
 ## Support
 
