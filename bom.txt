@@ -1,0 +1,41 @@
+M8 board:
+
+Teensy micromod
+U1, U2, U3, U4, U5, U6, U7, U8 - Kailh Choc low profile switch https://www.aliexpress.com/item/1005006626760418.html
+U1, U2, U3, U4, U5, U6, U7, U8 - Kailh Choc low profile keycap https://www.aliexpress.com/item/1005005792485443.html
+J8 - 3.2 inch ILI9341 IPS LCD https://www.aliexpress.com/item/1005007253437576.html
+TP4056 charger module
+PCM5102A DAC module https://www.aliexpress.com/item/4000397296348.html
+CS5343 ADC https://www.aliexpress.com/item/1005006998764471.html
+J9 - micro SD socket https://www.aliexpress.com/item/32802051702.html
+IC3 - MCP23008-E/SO
+Switch SKHHLUA010 https://pl.aliexpress.com/item/1005004288237245.html
+IC1 - 6N138
+J3, J4, J11, J13 - headphone jack https://www.aliexpress.com/item/32439357849.html
+507070 3000mah battery
+Usb-C socket https://pl.aliexpress.com/item/1005006257173539.html
+Switch TS-1286VE-2 https://pl.aliexpress.com/item/1005002844865456.html
+LT1963AES8-3.3
+M.2 socket, E key H=4.2 https://pl.aliexpress.com/item/4001262336295.html
+
+
+R1, R2 2k2 ohm 0805
+R5 220 ohm 0805
+R3, R6, R17, R18, R19, R20 33 ohm 0805
+R7 10 ohm 0805
+R8 470 ohm 0805
+R9 1k ohm 0805
+R12, R13, R14 100k ohm 0805
+R21 10k ohm 0805
+R4, R10, R11, R22, R23, R24 5k1 ohm 0805
+C1, C2, C5 10uF 0805
+C3, C4, C6, C8, C12, C13, C22 100nF 0805
+C11, C14, C15, C16, C25 1uF 0805
+C7, C17 180pF 0805
+D3 1N4148 SMD
+
+
+Case:
+
+4x Threaded Insert M2.5 4mm https://www.aliexpress.com/item/1005004535859664.html
+4x Screw M2.5 14mm https://www.aliexpress.com/item/1005007244737272.html
